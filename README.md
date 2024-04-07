@@ -1,6 +1,6 @@
 Backend Part is completed by Hari Krishna Shah
 
-To test the APIs, import the them from thunder_collection_challenge
+**To test the APIs, import the them from thunder_collection_challenge**
 #Instructions to integrate api into Frontend.
 
 APIs Created:
