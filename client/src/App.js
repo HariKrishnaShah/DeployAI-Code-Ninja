@@ -4,6 +4,7 @@ import Register from './components/Register';
 import Home from './components/Home';
 import Layout from './components/Layout';
 import SinglePost from './components/SinglePost';
+import Upload from './components/Upload';
 
 function App() {
   return (
@@ -12,17 +13,12 @@ function App() {
                 <BrowserRouter>
 
                   <Routes>
-                   
-            <Route path="/" element={<Layout />}>
-              <Route index element={<Home />}></Route>
-              <Route path="/home" element={<Home />}></Route>
-              <Route path="/singlepost/:id" element={<SinglePost />}></Route>
+                <Route path = "/" element = {<Upload />}>
 
-            </Route>
+                </Route>
+                <Route path = "/welcome" element = {<Home />}></Route>
 
 
-                    {/* <code> is an bootstrap element  */}
-                    <Route path="*" element={<main><code>not found  </code></main>}></Route>
                   </Routes>
                 </BrowserRouter>
     </div>
